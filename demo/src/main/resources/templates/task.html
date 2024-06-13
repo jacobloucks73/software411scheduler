@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Task Details</title>
+</head>
+<body>
+<h1>Task Details</h1>
+<p>Title: <span th:text="${task.title}">Title</span></p>
+<p>Description: <span th:text="${task.description}">Description</span></p>
+<p>Start Time: <span th:text="${task.startTime}">Start Time</span></p>
+<p>End Time: <span th:text="${task.endTime}">End Time</span></p>
+<a href="/tasks">Back to Tasks</a>
+</body>
+</html>
