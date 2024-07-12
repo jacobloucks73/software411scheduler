@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="runAPI" type="Application" factoryName="Application">
+    <envs>
+      <env name="GOOGLE_APPLICATION_CREDENTIALS" value="C:\Users\FBIVAN2\Downloads\SWENG411Project\demo\src\main\resources\taskscheduler-429105-fcf0e597b021.json" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.psu.scheduler.GeminiAPI" />
+    <module name="demo" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo/src/main/java" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
